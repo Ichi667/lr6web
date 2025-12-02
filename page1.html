@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>КП №6 Варіант 4</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="wrapper">
+    <section class="area area1">
+      <h2>Заголовок сторынки</h2>
+      <p class="small">1</p>
+    </section>
+
+    <section class="area area2">
+      <h2>Ліва колонка</h2>
+      <p class="small">test1111111111111111</p>
+    </section>
+
+    <section class="area area3" id="builder">
+      <h2>Конструктор вкладок</h2>
+      <p>Додай елементи вкладок: заголовок і контент. Збереження відбувається на сервер у форматі JSON.</p>
+
+      <div class="card" style="margin-top:8px">
+        <div class="row">
+          <div style="flex: 1 1 220px;">
+            <label for="tab-title">Заголовок вкладки</label>
+            <input id="tab-title" type="text" placeholder="Напр., Факти">
+          </div>
+        </div>
+        <label for="tab-content">Контент</label>
+        <textarea id="tab-content" rows="5" placeholder="HTML або текст"></textarea>
+        <div class="row" style="margin-top:8px">
+          <button id="add-tab" class="primary">Додати вкладку</button>
+          <button id="save-all">Зберегти на сервер</button>
+          <span id="status" class="small"></span>
+        </div>
+      </div>
+
+      <h3 style="margin-top:14px">Поточні вкладки</h3>
+      <div id="list" class="row"></div>
+    </section>
+
+    <section class="area area4">
+      <h2>Права колонка</h2>
+      <p class="small">1</p>
+    </section>
+
+    <section class="area area5">
+      <h2>Нижня смуга</h2>
+      <p class="small">1</p>
+    </section>
+
+    <section class="area area6">
+      <h2>test</h2>
+      <p class="small"><a class="btn" href="page2.html">Відкрити сторінку 2</a></p>
+    </section>
+  </main>
+
+  <script src="js/builder.js"></script>
+</body>
+</html>
